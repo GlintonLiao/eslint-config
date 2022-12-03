@@ -1,0 +1,42 @@
+{
+  "name": "@glintonliao/eslint-config-ts",
+  "version": "0.0.0",
+  "description": "Glinton's eslint config",
+  "keywords": [
+    "eslint-config"
+  ],
+  "author": "Guotong Liao <815190191@qq.com>",
+  "homepage": "https://github.com/GlintonLiao/eslint-config#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GlintonLiao/eslint-config.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/typescript.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/GlintonLiao/eslint-config/issues"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.4.0",
+    "typescript": ">=3.9"
+  },
+  "dependencies": {
+    "@glintonliao/eslint-config-basic": "workspace:*",
+    "@typescript-eslint/eslint-plugin": "^5.36.1",
+    "@typescript-eslint/parser": "^5.36.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.23.0",
+    "typescript": "^4.5.2"
+  }
+}

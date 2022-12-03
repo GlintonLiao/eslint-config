@@ -1,0 +1,33 @@
+{
+  "name": "@glintonliao/eslint-config-vue",
+  "version": "0.0.0",
+  "description": "Glinton's eslint config",
+  "keywords": [
+    "eslint-config"
+  ],
+  "author": "Guotong Liao <815190191@qq.com>",
+  "homepage": "https://github.com/GlintonLiao/eslint-config#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GlintonLiao/eslint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/GlintonLiao/eslint-config/issues"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  },
+  "dependencies": {
+    "@glintonliao/eslint-config-ts": "workspace:*",
+    "@glintonliao/eslint-config-basic": "workspace:*",
+    "eslint-plugin-vue": "^9.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.23.0"
+  }
+}

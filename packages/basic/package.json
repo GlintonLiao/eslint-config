@@ -1,0 +1,45 @@
+{
+  "name": "@glintonliao/eslint-config-basic",
+  "version": "0.0.0",
+  "description": "Glinton's eslint-config",
+  "keywords": [
+    "eslint-config"
+  ],
+  "author": "Guotong Liao <815190191@qq.com>",
+  "homepage": "https://github.com/GlintonLiao/eslint-config#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "files": [
+    "*.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GlintonLiao/eslint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/GlintonLiao/eslint-config/issues"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  },
+  "dependencies": {
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-html": "^7.1.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsonc": "^2.4.0",
+    "eslint-plugin-markdown": "^3.0.0",
+    "eslint-plugin-n": "^15.2.5",
+    "eslint-plugin-no-only-tests": "^3.1.0",
+    "eslint-plugin-promise": "^6.0.1",
+    "eslint-plugin-unicorn": "^43.0.2",
+    "eslint-plugin-yml": "^1.1.0",
+    "jsonc-eslint-parser": "^2.1.0",
+    "yaml-eslint-parser": "^1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.23.0"
+  },
+  "scripts": {
+    "lint": "eslint . --config=index.js"
+  }
+}
