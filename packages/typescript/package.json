@@ -9,9 +9,8 @@
   "homepage": "https://github.com/GlintonLiao/eslint-config#readme",
   "license": "MIT",
   "main": "index.js",
-  "directories": {
-    "lib": "lib",
-    "test": "__tests__"
+  "publishConfig": {
+    "access": "public"
   },
   "files": [
     "index.js"
@@ -39,5 +38,5 @@
     "eslint": "^8.23.0",
     "typescript": "^4.5.2"
   },
-  "gitHead": "2805c1c9044def82d78310420255fbdc8619d715"
+  "gitHead": "b92103ee6da93ce07c87779a2d0ec5d76b01c036"
 }

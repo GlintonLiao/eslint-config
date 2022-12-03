@@ -5,6 +5,9 @@
   "keywords": [
     "eslint-config"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "author": "Guotong Liao <815190191@qq.com>",
   "homepage": "https://github.com/GlintonLiao/eslint-config#readme",
   "license": "MIT",
@@ -30,5 +33,5 @@
   "devDependencies": {
     "eslint": "^8.23.0"
   },
-  "gitHead": "2805c1c9044def82d78310420255fbdc8619d715"
+  "gitHead": "b92103ee6da93ce07c87779a2d0ec5d76b01c036"
 }
