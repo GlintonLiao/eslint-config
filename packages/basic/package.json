@@ -41,5 +41,6 @@
   },
   "scripts": {
     "lint": "eslint . --config=index.js"
-  }
+  },
+  "gitHead": "2805c1c9044def82d78310420255fbdc8619d715"
 }

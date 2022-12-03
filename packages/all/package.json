@@ -23,7 +23,7 @@
     "eslint": ">=7.4.0"
   },
   "dependencies": {
-    "@glintonliao/eslint-config-vue": "workspace:*",
+    "@glintonliao/eslint-config-vue": "0.0.1",
     "@typescript-eslint/eslint-plugin": "^5.36.1",
     "@typescript-eslint/parser": "^5.36.1",
     "eslint-plugin-eslint-comments": "^3.2.0",
@@ -41,5 +41,6 @@
   "devDependencies": {
     "eslint": "^8.23.0",
     "typescript": "^4.5.2"
-  }
+  },
+  "gitHead": "2805c1c9044def82d78310420255fbdc8619d715"
 }
