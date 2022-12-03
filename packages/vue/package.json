@@ -1,6 +1,6 @@
 {
   "name": "@glintonliao/eslint-config-vue",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Glinton's eslint config",
   "keywords": [
     "eslint-config"
@@ -23,8 +23,8 @@
     "eslint": ">=7.4.0"
   },
   "dependencies": {
-    "@glintonliao/eslint-config-ts": "workspace:*",
     "@glintonliao/eslint-config-basic": "workspace:*",
+    "@glintonliao/eslint-config-ts": "workspace:*",
     "eslint-plugin-vue": "^9.4.0"
   },
   "devDependencies": {

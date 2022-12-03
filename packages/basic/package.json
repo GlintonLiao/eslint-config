@@ -1,6 +1,6 @@
 {
   "name": "@glintonliao/eslint-config-basic",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Glinton's eslint-config",
   "keywords": [
     "eslint-config"
